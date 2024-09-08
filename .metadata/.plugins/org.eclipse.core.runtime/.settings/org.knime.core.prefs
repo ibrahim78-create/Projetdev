@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+preferredRendererFor_org.knime.core.data.time.duration.DurationValue=org.knime.core.data.time.duration.DurationISOValueRenderer$DefaultRendererFactory
+preferredRendererFor_org.knime.core.data.time.period.PeriodValue=org.knime.core.data.time.period.PeriodISOValueRenderer$DefaultRendererFactory

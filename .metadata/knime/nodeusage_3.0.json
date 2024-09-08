@@ -1,0 +1,130 @@
+{
+    "version": "5.3.1.v202408061929",
+    "created": "2024-08-29 16:00",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.database.node.connector.generic.DBConnectorNodeFactory",
+                "nodename": "DB Connector",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 842,
+                "nrcreated": 0,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "successornodename": "DB Writer"
+            },
+            {
+                "id": "org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory",
+                "nodename": "DB Table Selector",
+                "nrexecs": 17,
+                "nrfails": 0,
+                "exectime": 93,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.reader.DBReadNodeFactory",
+                "successornodename": "DB Reader"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 23,
+                "nrfails": 0,
+                "exectime": 14,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
+                "successornodename": "Row Filter"
+            },
+            {
+                "id": "org.knime.database.node.io.reader.DBReadNodeFactory",
+                "nodename": "DB Reader",
+                "nrexecs": 22,
+                "nrfails": 0,
+                "exectime": 473,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            },
+            {
+                "id": "org.knime.database.node.manipulation.filter.column.DBFilterColumnNodeFactory",
+                "nodename": "DB Column Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
+                "nodename": "Row Filter",
+                "nrexecs": 19,
+                "nrfails": 0,
+                "exectime": 911,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "successornodename": "GroupBy"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "nodename": "GroupBy",
+                "nrexecs": 12,
+                "nrfails": 0,
+                "exectime": 112,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.jep.JEPNodeFactory",
+                "successornodename": "Math Formula"
+            },
+            {
+                "id": "org.knime.ext.jep.JEPNodeFactory",
+                "nodename": "Math Formula",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 17,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "successornodename": "DB Writer"
+            },
+            {
+                "id": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "nodename": "DB Writer",
+                "nrexecs": 7,
+                "nrfails": 2,
+                "exectime": 145,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.database.node.manipulation.executor.DBExecutorNodeFactory",
+                "nodename": "DB SQL Executor",
+                "nrexecs": 1,
+                "nrfails": 10,
+                "exectime": 231,
+                "nrcreated": 4,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "successornodename": "DB Writer"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 12,
+            "WEB_UI_QUICK_INSERTION_RECOMMENDED": 2
+        }
+    },
+    "uptime": 90633841,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 7,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 23980433,
+    "crashes": 0,
+    "properlyShutDown": false
+}

@@ -1,0 +1,22 @@
+{
+  "version" : "5.3.1.v202408061929",
+  "projects" : [ {
+    "name" : "ETL_Bancaire",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "ETL_Bancaire"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "ETL_Bancaire",
+    "timeUsed" : "2024-09-06T21:21:07.3664702Z",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "ETL_Bancaire"
+    }
+  } ]
+}
